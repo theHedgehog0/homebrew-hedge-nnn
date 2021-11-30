@@ -7,6 +7,7 @@ class HedgeNnn < Formula
   sha256 "e04a3f0f0c2af1e18cb6f005d18267c7703644274d21bb93f03b30e4fd3d1653"
   license "BSD-2-Clause"
   head "https://github.com/jarun/nnn.git", branch: "master"
+  revision 1
 
   depends_on "gnu-sed"
   depends_on "readline"
