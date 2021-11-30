@@ -14,7 +14,7 @@ class Nnn < Formula
 
   uses_from_macos "ncurses"
   
-  conflicts_with: "nnn", because: "This also creates an nnn binary."
+  conflicts_with "nnn", because: "This also creates an nnn binary."
 
   def install
     system "make", "install", "PREFIX=#{prefix}", "O_GITSTATUS=1", "O_NOX11=1", "O_NOMOUSE=1", "O_NERD=1"
