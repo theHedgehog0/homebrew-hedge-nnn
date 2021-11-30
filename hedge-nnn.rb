@@ -17,7 +17,7 @@ class Nnn < Formula
   conflicts_with: "nnn", because: "This also creates an nnn binary."
 
   def install
-    system "make", "install", "PREFIX=#{prefix}", "O_GITSTATUS=1", "O_NOX11=1", "O_NOMOUSE=1", "O_NERD=1", "
+    system "make", "install", "PREFIX=#{prefix}", "O_GITSTATUS=1", "O_NOX11=1", "O_NOMOUSE=1", "O_NERD=1"
 
     bash_completion.install "misc/auto-completion/bash/nnn-completion.bash"
     zsh_completion.install "misc/auto-completion/zsh/_nnn"
