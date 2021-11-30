@@ -1,6 +1,6 @@
 
 
-class Nnn < Formula
+class HedgeNnn < Formula
   desc "Tiny, lightning fast, feature-packed file manager"
   homepage "https://github.com/jarun/nnn"
   url "https://github.com/jarun/nnn/archive/v4.4.tar.gz"
